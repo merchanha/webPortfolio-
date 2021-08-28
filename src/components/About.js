@@ -5,7 +5,7 @@ export default function About() {
     return (
         <div>
              <Header/>
-            <h1>Avout</h1>
+            <h1>About</h1>
             
         </div>
     )

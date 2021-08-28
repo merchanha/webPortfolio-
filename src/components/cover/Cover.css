@@ -46,7 +46,7 @@
 
 
 header{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -82,23 +82,29 @@ header.sticky .logo {
 
 
 
+
 header ul {
-    position: relative;
+   
     display: flex;
+    align-content: center;
 }
 
 header ul li{
     position: relative;
     list-style: none;
+    align-items: center;
     
 }
 
-header ul li a{
+header ul li a {
     position: relative;
     display:inline-block;
+    justify-content: center;
+    align-items: center;
     margin: 0 15px;
     color: white;
     text-decoration: none;
+    
 }
 
 header.sticky ul li a{
@@ -107,3 +113,4 @@ header.sticky ul li a{
 
 
 }
+

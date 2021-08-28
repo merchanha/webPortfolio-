@@ -10,10 +10,10 @@ export default function Header() {
     return (
         <div>
     <header>
-       <a href="#" class="logo"><img className="logo" src={logonegro}></img></a>
+       <NavLink to = "/" class="logo"><img className="logo" src={logonegro}></img></NavLink>
        <div class="toggle" onclick="toggleMenu();"></div>
    
-        <ul className="menu"> 
+        <ul> 
         
             <li><NavLink to = "/" onclick="toggleMenu();">Home</NavLink></li>
             <li><NavLink to = "/About" onclick="toggleMenu();">About</NavLink></li>
