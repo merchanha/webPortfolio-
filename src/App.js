@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 import './App.css';
 import Covert from './components/cover/Covert';
-import About from "./components/About";
+import About from "./components/about/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 
@@ -18,11 +18,7 @@ function App() {
   return (
     <div>   
     <Router>
-     
-
-
-
-      
+    
         <Switch>
         <Route  exact path="/">
           <Covert/>
