@@ -12,6 +12,7 @@ import Covert from './components/cover/Covert';
 import About from "./components/about/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import AboutCover from "./components/cover/aboutCover/aboutCover";
 
 
 function App() {
@@ -22,8 +23,9 @@ function App() {
         <Switch>
         <Route  exact path="/">
           <Covert/>
+          <AboutCover/>
           </Route>
-          <Route exact path="/about">
+          <Route exact path="/About">
             <About />
           </Route>
           <Route exact path="/Portfolio">
