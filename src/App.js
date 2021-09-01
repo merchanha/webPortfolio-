@@ -1,4 +1,4 @@
-import React from "react";
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -16,7 +16,17 @@ import AboutCover from "./components/cover/aboutCover/aboutCover";
 
 
 function App() {
+
+ 
+
+
+
+
   return (
+    
+
+
+
     <div>   
     <Router>
     

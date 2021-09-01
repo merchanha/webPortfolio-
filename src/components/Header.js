@@ -1,17 +1,17 @@
 import React from 'react'
 import logonegro from "../media/logonegro.jpeg"
 import { NavLink } from "react-router-dom";
-import Cover from './cover/Cover.css';
+import './cover/Cover.css';
 
 
 
 
-export default function Header() {
+export default function Header({isScrolling}) {
     return (
-        <div>
-    <header>
+        
+    <header className={`header ${isScrolling > 0 ? "scrolling": null}`}>
        <NavLink to = "/" class="logo"><img className="logo" src={logonegro}></img></NavLink>
-       <div class="toggle" onclick="toggleMenu();"></div>
+       {/* <div class="toggle" onclick="toggleMenu();"></div> */}
    
         <ul> 
         
@@ -27,6 +27,6 @@ export default function Header() {
    </header>
 
             
-        </div>
+        
     )
 }

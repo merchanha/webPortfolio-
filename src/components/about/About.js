@@ -1,13 +1,25 @@
-import React from 'react';
+import React, {useState, useEffect} from "react";
 import Header from '../Header';
 import aboutFoto from '../../media/aboutFoto.jpeg';
 import './About.css';
 
 export default function About() {
+    const [scrollHeight, setScrollHeight] = useState(0);
+
+    const handleScroll = ()=>{
+      const position = window.pageYOffset;
+      setScrollHeight(position);
+    };
+  
+    useEffect(() => {
+      window.addEventListener("scroll", handleScroll);
+    },[scrollHeight])
+   
+  
     return (
 
         <div>
-            <div><Header /></div>
+            <Header isScrolling = {scrollHeight}/>
 
             <div className="about" id="about">
                 <h1 class="headings">ABOUT ME</h1>
@@ -18,7 +30,8 @@ export default function About() {
 
                     <div class="me">
                         <h2>Julio Florez</h2>
-                        <h2>Tattoo Artist</h2>
+                        <h3>Tattoo Artist</h3>
+                        <br/>
 
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa illum atque explicabo odio ipsam at voluptas possimus tempore nulla id mollitia, doloremque itaque aspernatur aut? Consequatur commodi explicabo mollitia dolorum!
