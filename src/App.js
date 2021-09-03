@@ -13,6 +13,7 @@ import About from "./components/about/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import AboutCover from "./components/cover/aboutCover/aboutCover";
+import Carrousel from "./components/cover/Carrousel/Carrousel";
 
 
 function App() {
@@ -34,6 +35,8 @@ function App() {
         <Route  exact path="/">
           <Covert/>
           <AboutCover/>
+          <Carrousel/>
+           
           </Route>
           <Route exact path="/About">
             <About />
@@ -42,8 +45,7 @@ function App() {
             <Portfolio/>           
           </Route>
           <Route exact path="/Contact">
-            <Contact/>
-                       
+            <Contact/>                      
           </Route>
           
         </Switch>
