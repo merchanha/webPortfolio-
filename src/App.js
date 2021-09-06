@@ -14,6 +14,7 @@ import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import AboutCover from "./components/cover/aboutCover/aboutCover";
 import Carrousel from "./components/cover/Carrousel/Carrousel";
+import Footer from "./components/Footer"
 
 
 function App() {
@@ -36,16 +37,20 @@ function App() {
           <Covert/>
           <AboutCover/>
           <Carrousel/>
+          <Footer/>
            
           </Route>
           <Route exact path="/About">
             <About />
+            <Footer/>
           </Route>
           <Route exact path="/Portfolio">
-            <Portfolio/>           
+            <Portfolio/>  
+            <Footer/>         
           </Route>
           <Route exact path="/Contact">
-            <Contact/>                      
+            <Contact/>   
+            <Footer/>                   
           </Route>
           
         </Switch>
