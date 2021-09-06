@@ -1,9 +1,16 @@
 
+.containerContact{
+    color: white;
+}
+
+
+
 .contact{
     background: rgb(20, 18, 18);
     padding-left: 80px;
     padding-right: 80px;
     margin-top: 60px;
+    color:white
     
     
     }

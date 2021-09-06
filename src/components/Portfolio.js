@@ -41,8 +41,11 @@ export default function Portfolio() {
 
             <div className="textoPortafolio">
                 <h2>PORTFOLIO</h2>
-                <p>For most current pictures, please visit <a href="https://instagram.com/julioflorez2?utm_medium=copy_link">my Instagram.</a> </p>
+                <p>For most current pictures, please visit my <a href="https://instagram.com/julioflorez2?utm_medium=copy_link">Instagram.</a> </p>
                 <br/>
+                <br/>
+                <br/>
+                
             
             
             </div>

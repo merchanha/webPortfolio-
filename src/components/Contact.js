@@ -17,7 +17,7 @@ export default function Contact() {
     },[scrollHeight])
    
     return (
-        <div>
+        <div className="containerContact">
             
             <Header/>
           
