@@ -104,7 +104,7 @@ export default function Contact() {
             </div>
             
 
-            <p class="copy">Developed by XXXXX | Copyright © 2020 Julio Florez </p>
+            
       
 
 

@@ -12,7 +12,7 @@ export default function Header({isScrolling}) {
     <header className={`header ${isScrolling > 0 ? "scrolling": null}`}>
        <NavLink to = "/" class="logo"><img className="logo" src={logonegro}></img></NavLink>
        {/* <div class="toggle" onclick="toggleMenu();"></div> */}
-   
+        Julio Florez
         <ul> 
         
             <li><NavLink to = "/" onclick="toggleMenu();">Home</NavLink></li>
