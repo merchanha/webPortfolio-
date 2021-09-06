@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import './Cover.css'
-import coverVideo from "../../media/coverVideo.mp4"
+import coverVideo from "../../media/coverVideo3.mp4"
 import Header from '../Header'
 
 

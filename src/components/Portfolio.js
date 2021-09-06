@@ -4,6 +4,7 @@ import Carousel, { Modal, ModalGateway } from "react-images";
 import { photos } from "./photos";
 import Header from './Header'
 import Lightbox from "react-awesome-lightbox";
+import "./Portfolio.css"
 
 
 
@@ -28,7 +29,7 @@ export default function Portfolio() {
 
 
     return (
-        <div>
+        <div className="containerPortfolio">
             <Header />
             <br/>
             <br/>
@@ -38,7 +39,14 @@ export default function Portfolio() {
             <br/>
             <br/>
 
-            <div><h2>Portfolio</h2></div>
+            <div className="textoPortafolio">
+                <h2>PORTFOLIO</h2>
+                <p>For most current pictures, please visit <a href="https://instagram.com/julioflorez2?utm_medium=copy_link">my Instagram.</a> </p>
+                <br/>
+            
+            
+            </div>
+            
             
             
             <div>
