@@ -3,7 +3,7 @@ import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import { photos } from "./photos";
 import Header from './Header'
-import DotLoader from "react-spinners/DotLoader";
+import RingLoader from "react-spinners/RingLoader";
 import Lightbox from "react-awesome-lightbox";
 import "./Portfolio.css"
 
@@ -66,7 +66,7 @@ export default function Portfolio() {
                 {
                     loading ? 
 
-                    <DotLoader color={"#FFFFFF"} loading={loading} size={75} />
+                    <RingLoader color={"#FFFFFF"} loading={loading} size={70} />
                     
                     : 
                     <div>
