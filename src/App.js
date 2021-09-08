@@ -45,8 +45,9 @@ function App() {
             <Footer/>
           </Route>
           <Route exact path="/Portfolio">
-            <Portfolio/>  
-            <Footer/>         
+            <Portfolio/>
+            <Footer/>    
+                 
           </Route>
           <Route exact path="/Contact">
             <Contact/>   
