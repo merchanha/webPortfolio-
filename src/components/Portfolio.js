@@ -35,7 +35,12 @@ export default function Portfolio() {
         setTimeout(()=>{
             setLoading(false)
         }, 5000)
-    }, [])
+
+       
+  }, [])
+    
+
+    
 
 
     return (
@@ -59,6 +64,7 @@ export default function Portfolio() {
 
 
             </div>
+          
 
 
 
@@ -72,11 +78,11 @@ export default function Portfolio() {
                     : 
                     <div>
 
-                    <Gallery photos={photos} onClick={openLightbox} />
-                    <ModalGateway>
+                    <Gallery  photos={photos} onClick={openLightbox} />
+                    <ModalGateway >
                         {viewerIsOpen ? (
                             <Modal onClose={closeLightbox}>
-                                <Carousel
+                                <Carousel 
                                     currentIndex={currentImage}
                                     views={photos.map(x => ({
                                         ...x,

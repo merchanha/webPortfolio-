@@ -10,7 +10,9 @@
     padding-left: 80px;
     padding-right: 80px;
     margin-top: 60px;
-    color:white
+    color:white;
+   
+    
     
     
     }
@@ -112,6 +114,7 @@
     
     .contactbox1 {
         position: relative;
+        z-index: 0;
     
     }
     

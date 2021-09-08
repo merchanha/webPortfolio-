@@ -12,8 +12,8 @@ import tattoo7 from "../media/tattoo7.jpeg";
 export const photos = [
     {
       src: `${tattoo1}`,
-      width: 3,
-      height: 3
+      width: 100,
+      height: 100
     },
     {
       src: `${tatto6}`,

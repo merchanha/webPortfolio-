@@ -102,10 +102,6 @@ export default function Contact() {
 
 
             </div>
-            
-
-            
-      
 
 
       </div>
@@ -113,11 +109,6 @@ export default function Contact() {
 
 
             </div>
-
-
-                   
-       
-
         
     )
 }
