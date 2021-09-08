@@ -46,6 +46,12 @@
     border-radius: 50%;
 }
 
+.logoB{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
 
 .header{
     position: fixed;
@@ -93,3 +99,4 @@
     
     z-index: 1000;
 }
+

@@ -1,18 +1,21 @@
+/* eslint-disable jsx-a11y/heading-has-content */
 import React from 'react'
 import logonegro from "../media/logonegro.jpeg"
 import { NavLink } from "react-router-dom";
 import './cover/Cover.css';
+import '../components/Header.css'
+
 
 
 
 
 export default function Header({isScrolling}) {
     return (
-        
+       
     <header className={`header ${isScrolling > 0 ? "scrolling": null}`}>
-       <NavLink to = "/" class="logo"><img className="logo" src={logonegro}></img></NavLink>
        {/* <div class="toggle" onclick="toggleMenu();"></div> */}
-        Julio Florez
+
+       <NavLink to = "/" class="NombreNavBar"><p>Julio Florez</p></NavLink>
         <ul> 
         
             <li><NavLink to = "/" onclick="toggleMenu();">Home</NavLink></li>
@@ -23,11 +26,7 @@ export default function Header({isScrolling}) {
 
         </ul>
 
-       
-    
-    
-
-   </header>
+    </header>
 
             
         

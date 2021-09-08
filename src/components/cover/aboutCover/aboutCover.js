@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 
 export default function AboutCover() {
     return (
-        <div className="aboutCover-container">
+        <div className="aboutCover-container" id="aboutCover">
             <div className="aboutCover-part">
                 <h3>ABOUT JULIO FLOREZ</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa illum atque explicabo odio ipsam at voluptas possimus 

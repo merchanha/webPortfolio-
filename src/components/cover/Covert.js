@@ -2,6 +2,8 @@ import React, {useState, useEffect} from "react";
 import './Cover.css'
 import coverVideo from "../../media/coverVideo3.mp4"
 import Header from '../Header'
+import Logoblanco from '../../media/logoblanco2.png'
+import { NavLink } from "react-router-dom";
 
 
 export default function Covert() {
@@ -25,9 +27,9 @@ export default function Covert() {
             <Header isScrolling = {scrollHeight}/>
             <div className="centro">
             
-            <h1>Julio Florez</h1>
-            <br/>
-            <h2>Tattoo Artist</h2>
+            
+            <NavLink to = "/About" class="logoB"><img className="logoB" src={Logoblanco}></img></NavLink>
+            
 
             </div>
             </div>
