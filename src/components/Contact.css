@@ -1,6 +1,7 @@
 
 .containerContact{
     color: white;
+    
 }
 
 
@@ -114,7 +115,8 @@
     
     .contactbox1 {
         position: relative;
-        z-index: 0;
+       
+       
     
     }
     
