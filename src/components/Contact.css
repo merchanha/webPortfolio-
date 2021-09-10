@@ -211,3 +211,81 @@
         text-align: center;
     }
     
+
+    
+@media (min-width: 320px) and (max-width: 480px){
+
+    html{
+  
+      width: auto;
+  
+  
+    }
+  
+      
+      .headings2{
+          margin-top: 45px;
+          font-size: 1.5em;
+          padding-top: 80px;
+      }
+  
+      .content{
+          display: flex;
+          flex-direction:column;
+          margin-top: 10px;
+          margin-left: 5px;
+      
+          justify-content: center;
+        
+      }
+  
+      .box1{
+          margin-left:-62px;
+      }
+  
+  
+  
+      .contactinfo h3 p{
+         font-size: 1em;
+         text-align: center;
+         padding-right: 5px;
+          
+      }
+
+      #contact{
+          margin-left: 10px;
+      }
+  
+      .text p{
+          font-size: 1em;
+      }
+  
+      .formbox form{
+          display: flex;
+          justify-content: center;
+          margin-left: auto;
+
+                 
+      }
+  
+      .about{
+          background-size: contain;
+          
+      }
+  
+      .photo img {
+          width: 300px;
+          height: 250px;
+      }
+  
+      .headings2 h1 {
+          font-size: 1em;
+      }
+  
+  
+  }
+  
+  
+
+  
+  

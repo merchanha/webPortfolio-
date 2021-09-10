@@ -34,7 +34,7 @@ export default function Portfolio() {
         setLoading(true)
         setTimeout(()=>{
             setLoading(false)
-        }, 5000)
+        }, 1000)
 
        
   }, [])

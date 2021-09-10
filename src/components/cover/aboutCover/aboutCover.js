@@ -1,7 +1,7 @@
 import React from 'react'
 import aboutCover2 from '../../../media/aboutCover2.jpeg'
 import "./aboutCover.css"
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 export default function AboutCover() {
@@ -14,7 +14,7 @@ export default function AboutCover() {
                 Ipsum quas ad, consequuntur asperiores illo omnis doloremque itaque aspernatur aut?Consequatur commodi explicabo 
                 mollitia dolorum!Ipsum quas ad, consequuntur asperiores illo omnis doloremque</p>
                 <br/>
-                <NavLink className="btn" to = "/About" onclick="toggleMenu();">READ MORE</NavLink>
+                <Link className="btn" to = "/About">READ MORE</Link>
 
 
             </div>

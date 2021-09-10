@@ -8,6 +8,10 @@ import tattoo3 from "../../../media/tattoo3.jpeg";
 import tattoo4 from "../../../media/tattoo4.jpeg";
 import tattoo5 from "../../../media/tattoo5.jpeg"
 import "./Carrousel.css"
+import * as FaIcons from 'react-icons/fa';
+import * as AiIcons from 'react-icons/ai';
+import * as IoIcons from 'react-icons/io5';
+import { Link } from "react-router-dom";
 
 import React, {useState, useEffect} from "react";
 
@@ -66,11 +70,7 @@ export default function Carrousel() {
       <div className="App">
         
       
-            <div className="texto">
-            <h2>Portfolio</h2>
-            <br/>
-            <p>Easy to use, responsive and customizable carousel component for React Projects.</p>
-            </div>
+          
 
           
           <div style={{
@@ -99,8 +99,22 @@ export default function Carrousel() {
                 maxWidth: "850px",
                 margin: "40px auto",
               }}
+              
             />
+              
           </div>
+          <div className="texto">
+            <h2>Portfolio</h2>
+            <br/>
+            <p>Easy to use, responsive and customizable carousel component for React Projects.</p>
+            <br/>
+
+            <Link className="btnP" to = "/Portfolio" onclick="toggleMenu();"><IoIcons.IoPlayForwardOutline size={35}/></Link>
+
+           
+
+
+            </div>
         </div>
       
     );

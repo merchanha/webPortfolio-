@@ -18,7 +18,7 @@ export default function About() {
   
     return (
 
-        <div>
+        <div className="containerAbout">
             <Header isScrolling = {scrollHeight}/>
 
             <div className="about" id="about">
