@@ -16,17 +16,27 @@ export const SidebarData = [
     icon: <IoIcons.IoMdPerson />,
     cName: 'nav-text'
   },
-  {
-    title: 'Contact',
-    path: '/Contact',
-    icon: <FaIcons.FaEnvelopeOpenText />,
-    cName: 'nav-text'
-  },
+  
   {
     title: 'Portfolio',
     path: '/Portfolio',
     icon: <IoIcons.IoIosImages/>,
     cName: 'nav-text'
   },
+  {
+    title: 'Contact',
+    path: '/Contact',
+    icon: <FaIcons.FaEnvelopeOpenText />,
+    cName: 'nav-text'
+  },
+
+  {
+    title: 'FAQs',
+    path: '/Question',
+    icon: <FaIcons.FaQuestion />,
+    cName: 'nav-text'
+  },
+
+  
   
 ];

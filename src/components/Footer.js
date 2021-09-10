@@ -6,8 +6,11 @@ return (
 <div className="Footer">
 
     <br/>
+   
     <p className="footerText">Developed by XXXXX | Copyright © 2021 Julio Florez</p>
     <p className="footerText">Terms | Privacy Policy | Contact | Site Map</p>
+    
+    
     <div className="FooterIcon">
         <ul>
             <li><a href="https://instagram.com/julioflorez2?utm_medium=copy_link"><i class="fa fa-instagram"></i></a></li>

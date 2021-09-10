@@ -32,5 +32,6 @@
     }
 
     .FooterIcon ul li .fa {
-        font-size: 1.5em;
+        font-size: 1em;
+        padding: 2px;
     }
