@@ -89,3 +89,25 @@
     z-index: 1000;
 }
 
+
+@media (min-width: 767px) and (max-width: 990px){
+
+ 
+
+
+}
+
+
+@media (min-width: 481px) and (max-width: 767px){
+
+    
+
+
+
+
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+
+   
+}

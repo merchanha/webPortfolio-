@@ -212,6 +212,51 @@
     }
     
 
+    @media (min-width: 481px) and (max-width: 767px) {
+
+        html{
+            width:auto
+        }
+
+        .headings2{
+            margin-top: 45px;
+            font-size: 1.5em;
+            padding-top: 80px;
+        }
+    
+        .content{
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            margin-top: 10px;       
+          
+        }
+
+        
+      .formbox form{
+        display: flex;
+        justify-content: center;
+        margin-left: 25px;
+
+               
+    }
+
+    #contact{
+        margin-left: 10px;
+    }
+
+    .contactbox1{
+
+        margin-left: 0px;
+
+
+    }
+
+
+    }
+
+
+
     
 @media (min-width: 320px) and (max-width: 480px){
 
@@ -268,20 +313,7 @@
                  
       }
   
-      .about{
-          background-size: contain;
-          
-      }
-  
-      .photo img {
-          width: 300px;
-          height: 250px;
-      }
-  
-      .headings2 h1 {
-          font-size: 1em;
-      }
-  
+      
   
   }
   
