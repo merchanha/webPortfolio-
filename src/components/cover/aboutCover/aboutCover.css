@@ -56,6 +56,8 @@
 
 @media (min-width: 767px) and (max-width: 1580px){
 
+   
+
     .aboutCover-container{
         display: flex;
         background-color: rgb(15, 15, 15);
@@ -112,9 +114,18 @@
 
  
 
-@media (min-width: 481px) and (max-width: 767px){
+@media (min-width: 425px) and (max-width: 767px){
+
+  
+
+    
+
+  
+
+  
     .aboutCover-container{
         display: flex;
+        width: 100%;
         background-color: rgb(15, 15, 15);
         color:rgb(252, 248, 248);
         font-weight: bold;
@@ -165,8 +176,13 @@
 
 @media (min-width: 320px) and (max-width: 480px){
 
+
+   
+
     .aboutCover-container{
         display: flex;
+        width: 100%;
+       
         background-color: rgb(15, 15, 15);
         color:rgb(252, 248, 248);
         font-weight: bold;

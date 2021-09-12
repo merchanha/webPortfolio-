@@ -38,7 +38,7 @@ function App() {
           <Covert/>
           <AboutCover/>
           <Carrousel/>
-          <hr/>
+         
           <Footer/>
            
           </Route>

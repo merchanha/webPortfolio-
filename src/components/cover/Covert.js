@@ -28,7 +28,7 @@ export default function Covert() {
             <div className="centro">
             
             
-            <NavLink to = "/About" class="logoB"><img className="logoB" src={Logoblanco}></img></NavLink>
+            <NavLink to = "/About" className="logoB"><img className="logoB"  src={Logoblanco}></img></NavLink>
             
 
             </div>
