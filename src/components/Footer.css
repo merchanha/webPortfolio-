@@ -1,4 +1,4 @@
-.Footer {
+ .Footer {
     background-color: black;
     position: auto;
 
@@ -34,4 +34,4 @@
     .FooterIcon ul li .fa {
         font-size: 1em;
         padding: 2px;
-    }
+    } 
