@@ -287,12 +287,16 @@
       .box1{
           margin-left:-62px;
       }
+
+      .contactinfo{
+        margin-left: 40px;
+    }
   
   
   
       .contactinfo h3 p{
          font-size: 1em;
-         text-align: center;
+         text-align: left;
          padding-right: 5px;
           
       }
