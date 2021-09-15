@@ -58,6 +58,7 @@ function App() {
 
           <Route exact path="/Question">
             <Question/>
+            <Footer/> 
 
 
           </Route>
