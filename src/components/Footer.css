@@ -1,0 +1,38 @@
+.Footer {
+    background-color: black;
+    position: auto;
+
+    
+    
+    }
+    
+    .footerText {
+        color: white;
+        text-align: center;
+        font-size: 0.8em;
+        padding-top: 0.3em;
+    }
+
+    .FooterIcon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 00.5em;
+        
+    }
+
+    .FooterIcon ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .FooterIcon ul li a {
+        padding-left: 0.3em;
+        padding-right: 0.3em;
+        padding-top: 0.3em;
+    }
+
+    .FooterIcon ul li .fa {
+        font-size: 1em;
+        padding: 2px;
+    }

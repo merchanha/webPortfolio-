@@ -1,0 +1,238 @@
+ 
+.about{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    background-color: rgb(22, 21, 21);
+    padding-left: 100px;
+    padding-right: 100px;
+    color: rgb(255, 255, 255);
+    z-index: -1;
+
+
+}
+
+.headings {
+
+    display: flex;
+    justify-content: left;
+    font-size: 2.5rem;
+    margin-top: 80px;
+    margin-left: 86px;
+}
+
+.photo {
+    display: flex; 
+    margin: 30px;
+    margin-bottom: 30px;
+}
+
+.photo img {
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+
+.me{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 40px;
+    
+
+}
+
+.me h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.3rem;
+}
+
+.cardsAbout h2 {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    text-align: center;
+    font-size: 2.5rem;
+
+}
+
+.card-group{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.card {
+    margin: 1em;
+    width: 400px;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 1.3em;
+    margin-top: 1em;
+}
+
+.card-img-top {
+    width: 80%;
+    height: auto;
+    margin-left: 50px;
+}
+
+.subtitulo-estilos {
+    text-align: center;
+}
+
+.parrafo2{
+    margin-top: 5px;    
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+hr {
+    margin-left: 89px;
+    width: 86%;
+    background-color:black;
+  }
+
+
+
+
+
+@media (max-width: 991px) 
+
+{
+
+    /*aboutme*/
+
+    .headings{
+        font-size: 24px;
+    }
+
+    .photo{
+
+        flex-direction: column;
+        align-items: center;
+
+        
+    }
+
+    .photo img {
+        width: 470px;
+        height: 380px;
+    }
+
+    .gallery0 img{
+        
+        align-items: center;
+    }
+
+    .me{
+        margin-left: 60px;
+    }
+
+    .me h2 {
+        text-align: center;
+    }
+    
+    p {
+        text-align: center;
+    }
+
+    .me h3{
+        text-align: center;
+
+    }
+
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    hr {
+        margin-left: 5px;
+        width: 100%;
+        background-color:black;
+      }
+    
+
+   
+
+}
+
+
+@media (min-width: 320px) and (max-width: 480px){
+
+  html{
+
+    width: 460px;
+
+
+  }
+ 
+
+    .about{
+        background-size: contain;
+        
+        
+    }
+
+    .photo img {
+        width: 300px;
+        height: 250px;
+    }
+    .headings {
+
+        display: flex;
+        justify-content:left;
+        font-size: 1.5rem;
+        margin-top: 80px;
+        margin-left: 5px;
+    }
+
+    hr {
+        margin-left: 5px;
+        width: 100%;
+        background-color:black;
+      }
+
+      .parrafo2 {
+          display: flex;
+          justify-content:center;
+        font-size: 1.3rem;
+      
+       
+     
+    }
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
