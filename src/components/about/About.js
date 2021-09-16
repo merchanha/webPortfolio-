@@ -80,6 +80,7 @@ export default function About() {
                             Ipsum quas ad, consequuntur asperiores illo omnis assumenda ab facere tenetur velit sequi ipsa debitis blanditiis numquam adipisci ullam consectetur, beatae error ut, minus labore magnam deserunt. Incidunt, rem culpa!
                             Laudantium cum voluptatum commodi tempora ullam vel, nostrum inventore eum aliquam hic error accusantium ipsa sapiente voluptate nobis quisquam nihil, earum voluptatem laborum! Laudantium autem odio, et dignissimos numquam eius?
                             Culpa voluptatibus id ipsam dolorem ducimus ipsa eius adipisci accusamus corrupti sequi magnam sint tenetur voluptas quaerat iure vitae repellendus itaque doloremque architecto obcaecati, rerum quidem molestiae et. Quod, consequatur?
+                       
                         </p>
                     </div>
                     <img src={aboutStudio} alt="henry" />
