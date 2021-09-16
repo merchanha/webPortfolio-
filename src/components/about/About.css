@@ -22,18 +22,31 @@
     margin-left: 86px;
 }
 
-.photo {
+.photo1 {
     display: flex; 
-    margin: 30px;
+    width: 96%;
     margin-bottom: 30px;
+    margin-top: 50px;
+    padding-left: 85px;
 }
 
-.photo img {
-    width: 300px;
-    height: 300px;
-    margin-left: 40px;
+.photo2 {
+    display: flex; 
+    width: 92%;
+    margin-bottom: 30px;
+    padding-left: 55px;
+}
+
+.photo1 img {
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+}
+
+.photo2 img {
+    width: 400px;
+    height: 400px;
     margin-top: 20px;
-    
 }
 
 .me{
@@ -57,9 +70,18 @@ p {
     font-size: 1.3rem;
 }
 
+.cardsAbout{
+    display: flex;
+    flex-direction: column;
+    margin-left: 11em;
+    width: 81%;
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+
 .cardsAbout h2 {
     margin-bottom: 0.5em;
-    margin-top: 0.5em;
+
     text-align: center;
     font-size: 2.5rem;
 
@@ -68,11 +90,15 @@ p {
 .card-group{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+
+
+
     
 }
 
 .card {
-    margin: 1em;
+    margin: 0.5em;
     width: 400px;
 }
 
@@ -85,7 +111,7 @@ p {
 .card-img-top {
     width: 80%;
     height: auto;
-    margin-left: 50px;
+
 }
 
 .subtitulo-estilos {

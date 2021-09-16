@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import Header from '../Header';
-import aboutFoto from '../../media/aboutFoto.jpeg';
+import aboutFoto from '../../media/aboutCover2.jpeg';
 import './About.css';
 import aboutStudio from '../../media/aboutStudio.jpg'
 import TrashPolka from '../../media/tattoo4.jpeg'
@@ -28,7 +28,7 @@ export default function About() {
            <div className="about" id="about">
                 <h1 class="headings">ABOUT ME</h1>
                 <hr></hr>
-                <div class="photo">
+                <div class="photo1">
                     <img src={aboutFoto} alt="henry" />
                    <div class="me">
                         <h2>Julio Florez</h2>
@@ -41,37 +41,7 @@ export default function About() {
                         </p>
                     </div>
                 </div>
-                {/* <div className="cardsAbout">
-                <h2>Mis estilos</h2>
-                <br/>
-                <div class="card-group">
-                    <div class="card">
-                        <img src={aboutStudio} class="card-img-top" alt="..."/>
-                        <div class="card-body">
-                        <h5 class="card-title">Realismo en Grises</h5>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src={aboutStudio} class="card-img-top" alt="..."/>
-                        <div class="card-body">
-                        <h5 class="card-title">Color</h5>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src={aboutStudio} class="card-img-top" alt="..."/>
-                        <div class="card-body">
-                        <h5 class="card-title">Trash Polka Oriental</h5>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src={aboutStudio} class="card-img-top" alt="..."/>
-                        <div class="card-body">
-                        <h5 class="card-title">Black Work</h5>
-                        </div>
-                    </div>
-                    </div>
-                </div> */}
-                <div class="photo">
+                <div class="photo2">
                     <div class="me">
                         <h2>Arte y Piel</h2>
                         <h3>Studio</h3>
@@ -80,7 +50,6 @@ export default function About() {
                             Ipsum quas ad, consequuntur asperiores illo omnis assumenda ab facere tenetur velit sequi ipsa debitis blanditiis numquam adipisci ullam consectetur, beatae error ut, minus labore magnam deserunt. Incidunt, rem culpa!
                             Laudantium cum voluptatum commodi tempora ullam vel, nostrum inventore eum aliquam hic error accusantium ipsa sapiente voluptate nobis quisquam nihil, earum voluptatem laborum! Laudantium autem odio, et dignissimos numquam eius?
                             Culpa voluptatibus id ipsam dolorem ducimus ipsa eius adipisci accusamus corrupti sequi magnam sint tenetur voluptas quaerat iure vitae repellendus itaque doloremque architecto obcaecati, rerum quidem molestiae et. Quod, consequatur?
-                       
                         </p>
                     </div>
                     <img src={aboutStudio} alt="henry" />
