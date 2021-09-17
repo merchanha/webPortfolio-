@@ -27,7 +27,7 @@ export default function About() {
             <Header isScrolling = {scrollHeight}/>
            <div className="about" id="about">
                 <h1 class="headings">ABOUT ME</h1>
-                <hr></hr>
+                <hr className="hrAbout"></hr>
                 <div class="photo1">
                     <img src={aboutFoto} alt="henry" />
                    <div class="me">

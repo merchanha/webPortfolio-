@@ -125,7 +125,7 @@ p {
 
 }
 
-hr {
+.hrAbout {
     margin-left: 89px;
     width: 86%;
     background-color:black;
@@ -135,114 +135,83 @@ hr {
 
 
 
-@media (max-width: 991px) 
-
-{
-
-    /*aboutme*/
-
-    .headings{
-        font-size: 24px;
-    }
-
-    .photo{
-
+@media (min-width: 320px),(max-width: 480px){
+    /* Titulo, fotos, parrafos */
+    .containerAbout {
+        display: flex;
         flex-direction: column;
-        align-items: center;
-
-        
+        width: fit-content;
+        height: auto;
     }
-
-    .photo img {
-        width: 470px;
-        height: 380px;
-    }
-
-    .gallery0 img{
-        
-        align-items: center;
-    }
-
-    .me{
-        margin-left: 60px;
-    }
-
-    .me h2 {
-        text-align: center;
-    }
-    
-    p {
-        text-align: center;
-    }
-
-    .me h3{
-        text-align: center;
-
-    }
-
-    .row{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    hr {
-        margin-left: 5px;
-        width: 100%;
-        background-color:black;
-      }
-    
-
-   
-
-}
-
-
-@media (min-width: 320px) and (max-width: 480px){
-
-  html{
-
-    width: 460px;
-
-
-  }
- 
 
     .about{
-        background-size: contain;
-        
-        
+        flex-direction: column;
+        padding-right: 0%;
+        padding-left: 0%;
+        width: fit-content;
     }
 
-    .photo img {
-        width: 300px;
-        height: 250px;
+    .about .headings{
+        margin-left: 40px;
     }
-    .headings {
 
+    .hrAbout{
+        margin-left: 40px;
+    }
+
+    .photo1{
+        flex-direction: column;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .photo2{
+        flex-direction: column-reverse;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-left: 30px;
+        padding-right: 18px;
+    }
+
+    .photo1 .me {
+        margin-right: 0;
+        margin-left: 0;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .photo2 .me {
+        margin-right: 0;
+        margin-left: 0;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    /* Seccion My Style (Cards) */
+
+    .cardsAbout{
+        margin-bottom: 0;
+        margin-left: 0%;
         display: flex;
-        justify-content:left;
-        font-size: 1.5rem;
-        margin-top: 80px;
-        margin-left: 5px;
+        flex-direction: column;
+        width: fit-content;
+        height: auto;
+        
     }
 
-    hr {
-        margin-left: 5px;
-        width: 100%;
-        background-color:black;
-      }
-
-      .parrafo2 {
-          display: flex;
-          justify-content:center;
-        font-size: 1.3rem;
-      
-       
-     
+    .card-group{
+        flex-direction: column;
+        padding-left: 78px;
     }
-    
 
+    .card-group .card .card-title{
+        padding-right: 70px;
+        margin-top: 5px;
+        margin-bottom: 2em;
 
+    }
 }
 
 
