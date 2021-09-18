@@ -70,7 +70,7 @@ p {
     display: flex;
     flex-direction: column;
     margin-left: 11em;
-    width: 81%;
+    width: fit-content;
     margin-bottom: 3em;
     background-color: rgb(22, 21, 21);
     color: rgb(255, 255, 255);
@@ -250,8 +250,8 @@ p {
     .about .photo2 .me {
     padding-top: 60px;
     }
-
-        .cardsAbout{
+     /* Seccion My Style (Cards) */
+    .cardsAbout{
         margin-bottom: 0;
         margin-left: 0%;
         display: flex;
@@ -259,9 +259,77 @@ p {
         width: fit-content;
         height: auto;
     }
+
+    .card-group {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .cardsAbout .card .card-img-top{
+        padding-left: 80px;
+    }
 }
 
+@media (min-width: 769px) and (max-width: 1024px){
+    .containerAbout {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        height: auto;
+    }
 
+    .about{
+        flex-direction: column;
+        padding-right: 0%;
+        padding-left: 0%;
+        width: fit-content;
+    }
+
+    .about .headings{
+        margin-left: 120px;
+    }
+
+    .hrAbout{
+        margin-left: 120px;
+    }
+
+    .photo1{
+        margin-left: 35px;
+        padding-right: 40px;
+    }
+
+    .about .photo1 .me {
+    padding-top: 45px;
+    }
+
+    .photo2{
+        margin-left: 35px;
+        padding-right: 40px;
+    }
+
+    .about .photo2 .me {
+    padding-top: 60px;
+    }
+
+         /* Seccion My Style (Cards) */
+         .cardsAbout{
+            margin-bottom: 0;
+            margin-left: 0%;
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+            height: auto;
+        }
+    
+        .card-group {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+    
+        .cardsAbout .card .card-img-top{
+            padding-left: 80px;
+        }
+}
 
 
 
