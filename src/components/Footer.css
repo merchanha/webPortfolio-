@@ -1,9 +1,6 @@
 .Footer {
     background-color: black;
     position: auto;
-
-    
-    
     }
     
     .footerText {
@@ -18,8 +15,7 @@
         align-items: center;
         justify-content: center;
         margin-top: 00.5em;
-        
-    }
+}
 
     .FooterIcon ul {
         display: flex;
@@ -35,4 +31,17 @@
     .FooterIcon ul li .fa {
         font-size: 1em;
         padding: 2px;
+    }
+
+    @media (min-width: 320px) and (max-width: 480px){
+        html{
+            width: fit-content;
+        }
+
+    }
+
+    @media (min-width: 481px) and (max-width: 768px){
+        html{
+            width: fit-content;
+        }
     }

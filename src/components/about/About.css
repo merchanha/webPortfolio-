@@ -9,8 +9,6 @@
     padding-right: 100px;
     color: rgb(255, 255, 255);
     z-index: -1;
-
-
 }
 
 .headings {
@@ -56,8 +54,6 @@
     padding: 20px;
     margin-left: 10px;
     margin-right: 40px;
-    
-
 }
 
 .me h2 {
@@ -76,25 +72,21 @@ p {
     margin-left: 11em;
     width: 81%;
     margin-bottom: 3em;
-    margin-top: 3em;
+    background-color: rgb(22, 21, 21);
+    color: rgb(255, 255, 255);
 }
 
 .cardsAbout h2 {
     margin-bottom: 0.5em;
-
+    margin-top: 1em;
     text-align: center;
     font-size: 2.5rem;
-
 }
 
 .card-group{
     display: flex;
     flex-direction: row;
     justify-content: center;
-
-
-
-    
 }
 
 .card {
@@ -111,7 +103,6 @@ p {
 .card-img-top {
     width: 80%;
     height: auto;
-
 }
 
 .subtitulo-estilos {
@@ -122,7 +113,6 @@ p {
     margin-top: 5px;    
     padding-left: 100px;
     padding-right: 100px;
-
 }
 
 .hrAbout {
@@ -132,10 +122,8 @@ p {
   }
 
 
-
-
-
-@media (min-width: 320px),(max-width: 480px){
+/* Media Queries */
+@media (min-width: 320px) and (max-width: 480px){
     /* Titulo, fotos, parrafos */
     .containerAbout {
         display: flex;
@@ -189,8 +177,17 @@ p {
         padding-right: 0%;
     }
 
-    /* Seccion My Style (Cards) */
+    .about .photo1 .me p {
+        overflow: hidden;
+        max-height: 300px;
+    }
 
+    .about .photo2 .me p {
+        overflow: hidden;
+        max-height: 300px;
+    }
+
+    /* Seccion My Style (Cards) */
     .cardsAbout{
         margin-bottom: 0;
         margin-left: 0%;
@@ -198,7 +195,6 @@ p {
         flex-direction: column;
         width: fit-content;
         height: auto;
-        
     }
 
     .card-group{
@@ -210,11 +206,60 @@ p {
         padding-right: 70px;
         margin-top: 5px;
         margin-bottom: 2em;
-
     }
 }
 
+@media (min-width: 481px) and (max-width: 768px){
+    /* Titulo, fotos, parrafos */
+    .containerAbout {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        height: auto;
+    }
 
+    .about{
+        flex-direction: column;
+        padding-right: 0%;
+        padding-left: 0%;
+        width: fit-content;
+    }
+
+    .about .headings{
+        margin-left: 120px;
+    }
+
+    .hrAbout{
+        margin-left: 120px;
+    }
+
+    .photo1{
+        margin-left: 35px;
+        padding-right: 40px;
+    }
+
+    .about .photo1 .me {
+    padding-top: 45px;
+    }
+
+    .photo2{
+        margin-left: 35px;
+        padding-right: 40px;
+    }
+
+    .about .photo2 .me {
+    padding-top: 60px;
+    }
+
+        .cardsAbout{
+        margin-bottom: 0;
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        height: auto;
+    }
+}
 
 
 
