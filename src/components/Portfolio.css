@@ -1,9 +1,14 @@
 .containerPortfolio{
+    margin-top: 6em;
+    padding-top: 2.5em;
     background-color: rgb(22, 21, 21);
     color: rgb(245, 229, 229);
     height: fit-content;
 }
 
+.textoPortafolio{
+    padding-bottom: 3em;
+}
 .textoPortafolio >  h2 {
     text-align: center;
     font-size: 2.5rem;
@@ -19,12 +24,7 @@ a{
     color: white;
 }
 
-
 .loader{
-    
-   
     display: flex;
     justify-content: center;
-  
-
 }

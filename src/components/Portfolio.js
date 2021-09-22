@@ -4,15 +4,7 @@ import Carousel, { Modal, ModalGateway } from "react-images";
 import { photos } from "./photos";
 import Header from './Header'
 import RingLoader from "react-spinners/RingLoader";
-import Lightbox from "react-awesome-lightbox";
 import "./Portfolio.css"
-
-
-
-
-
-
-
 
 export default function Portfolio() {
 
@@ -39,41 +31,19 @@ export default function Portfolio() {
        
   }, [])
     
-
-    
-
-
     return (
         <div className="containerPortfolio">
             <Header />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-
             <div className="textoPortafolio">
                 <h2>PORTFOLIO</h2>
                 <p>For most current pictures, please visit my <a href="https://instagram.com/julioflorez2?utm_medium=copy_link">Instagram.</a> </p>
-                <br />
-                <br />
-                <br />
-
-
-
             </div>
-          
-
-
-
             <div className="loader">
 
                 {
                     loading ? 
 
-                    <RingLoader color={"#FFFFFF"} loading={loading} size={70} />
+                    <RingLoader color={"#FFFFFF"} loading={loading} size={200} />
                     
                     : 
                     <div>
@@ -95,27 +65,9 @@ export default function Portfolio() {
                     </ModalGateway>
 
                     </div>
-
-
-
-
                 }
-
-
-
-               
+ 
             </div>
-
-
-
-
-
-             
-
-
-
-
-
         </div>
     )
 }
