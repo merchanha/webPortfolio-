@@ -147,9 +147,10 @@
     
     }
 
-    .aboutCover-part >p{
+    #parrafoAbout{
         line-height: 1;
         overflow: hidden;
+        font-size: small;
         
     
     }
@@ -204,11 +205,10 @@
     }
 
 
-    .aboutCover-part >p{
+    #parrafoAbout{
         line-height: 1;
         overflow: hidden;
-        
-    
+
     }
 
     

@@ -113,15 +113,15 @@
         min-width: 30%;
     }
     
-    .contactbox1 {
-        position: relative;
+    /* .contactbox1 {
+        position: absolute;
        
        
     
-    }
+    } */
     
     .contactbox1 .box1 {
-        position: relative;
+        /* position: relative; */
         padding: 20px 0;
         display: flex;
     }
@@ -302,7 +302,7 @@
       }
 
       #contact{
-          margin-left: 10px;
+          margin-left: 43px;
       }
   
       .text p{
@@ -315,6 +315,12 @@
           margin-left: auto;
 
                  
+      }
+
+      #message{
+          margin-top: 20px;
+       text-align: center;
+
       }
   
       

@@ -72,7 +72,7 @@ export default function Contact() {
 
                     <div class="formbox">
                         <form action="https://submit-form.com/S5iQxzWH">
-                            <h3>Message Me</h3>
+                            <h3 id="message">Message Me</h3>
                             <input type="text" name="name" placeholder="Full Name" />
                             <input type="email" name="email" placeholder="Email" />
                             <textarea name="mensaje" placeholder="Your Message"></textarea>
