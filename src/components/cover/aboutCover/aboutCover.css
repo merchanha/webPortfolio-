@@ -200,6 +200,7 @@
         width: 100%;
         padding: 0 50px 0 50px;
         background-color: black; opacity: 0.6;
+
     
     
     }
@@ -207,6 +208,7 @@
 
     #parrafoAbout{
         line-height: 1;
+        position: relative;
         overflow: hidden;
 
     }
