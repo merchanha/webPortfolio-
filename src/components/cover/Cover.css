@@ -62,6 +62,7 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    
 }
 
 
@@ -164,10 +165,16 @@
 
   
     .logoB{
+        position: absolute;
+        
         background-color: transparent;
-        width: 100px;
-        height: 100px;
+        align-items: center;
+        margin-top: 52px;
+        
+        width: 40px;
+        height: 40px;
         border-radius: 50%;
+        
     }
 
 
