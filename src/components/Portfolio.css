@@ -25,6 +25,12 @@ a{
 }
 
 .loader{
+    background-color: rgb(22, 21, 21);
+    height: 890px;
     display: flex;
     justify-content: center;
+    
+
+   
+
 }

@@ -22,15 +22,15 @@ export default function Portfolio() {
         setViewerIsOpen(false);
     };
 
-    useEffect(()=>{
+    useEffect(() => {
         setLoading(true)
-        setTimeout(()=>{
+        setTimeout(() => {
             setLoading(false)
         }, 1000)
 
-       
-  }, [])
-    
+
+    }, [])
+
     return (
         <div className="containerPortfolio">
             <Header />
@@ -41,32 +41,32 @@ export default function Portfolio() {
             <div className="loader">
 
                 {
-                    loading ? 
+                    loading ?
 
-                    <RingLoader color={"#FFFFFF"} loading={loading} size={200} />
-                    
-                    : 
-                    <div>
+                        <RingLoader color={"#FFFFFF"} loading={loading} size={100} />
 
-                    <Gallery  photos={photos} onClick={openLightbox} />
-                    <ModalGateway >
-                        {viewerIsOpen ? (
-                            <Modal onClose={closeLightbox}>
-                                <Carousel 
-                                    currentIndex={currentImage}
-                                    views={photos.map(x => ({
-                                        ...x,
-                                        srcset: x.srcSet,
-                                        caption: x.title
-                                    }))}
-                                />
-                            </Modal>
-                        ) : null}
-                    </ModalGateway>
+                        :
+                        <div>
 
-                    </div>
+                            <Gallery photos={photos} onClick={openLightbox} />
+                            <ModalGateway >
+                                {viewerIsOpen ? (
+                                    <Modal onClose={closeLightbox}>
+                                        <Carousel
+                                            currentIndex={currentImage}
+                                            views={photos.map(x => ({
+                                                ...x,
+                                                srcset: x.srcSet,
+                                                caption: x.title
+                                            }))}
+                                        />
+                                    </Modal>
+                                ) : null}
+                            </ModalGateway>
+
+                        </div>
                 }
- 
+
             </div>
         </div>
     )
